@@ -1,0 +1,5 @@
+Date;Time;Settlement;Status;Quantity;Price;Yield;Remuneration;ATS; Modifier;2nd Modifier;Special;As-Of;Side;Reporting Party Type;Contra Party Type;Finra Ticker
+8/7/2018;09:29:03;8/9/2018;Trade;1MM+;100.000;;M;;_;_;-;-;S;D;C;35922QAB9
+8/7/2018;09:27:34;8/9/2018;Trade;1MM+;99.900;;M;;_;_;-;-;B;D;C;35922QAB9
+6/28/2018;09:15:53;7/2/2018;Trade;750000;100.150;;M;;_;_;-;-;S;D;C;35922QAB9
+6/28/2018;09:15:10;7/2/2018;Trade;750000;100.050;;M;;_;_;-;-;B;D;C;35922QAB9

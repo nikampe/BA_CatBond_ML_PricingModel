@@ -1,0 +1,8 @@
+Date;Time;Settlement;Status;Quantity;Price;Yield;Remuneration;ATS; Modifier;2nd Modifier;Special;As-Of;Side;Reporting Party Type;Contra Party Type;Finra Ticker
+5/14/2019;10:25:30;5/16/2019;Trade;169280;47.000;;M;;_;_;-;-;S;D;C;095538AB0
+5/14/2019;10:24:51;5/16/2019;Trade;169280;46.500;;M;;_;_;-;-;B;D;C;095538AB0
+5/18/2018;11:01:58;5/22/2018;Trade;1000000;50.050;;M;;Z;_;-;-;S;D;C;095538AB0
+5/18/2018;11:01:03;5/22/2018;Trade;1000000;50.000;;M;;Z;_;-;-;B;D;C;095538AB0
+9/7/2016;10:50:48;9/12/2016;Trade;1MM+;101.850;;M;;_;_;-;-;S;D;C;095538AB0
+9/7/2016;10:50:46;9/12/2016;Trade;1MM+;101.750;;M;;_;_;-;-;B;D;C;095538AB0
+9/7/2016;10:50:44;9/12/2016;Trade;1000000;101.850;;M;;_;_;-;-;S;D;C;095538AB0

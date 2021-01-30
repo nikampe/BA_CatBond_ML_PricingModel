@@ -1,0 +1,5 @@
+Date;Time;Settlement;Status;Quantity;Price;Yield;Remuneration;ATS; Modifier;2nd Modifier;Special;As-Of;Side;Reporting Party Type;Contra Party Type;Finra Ticker
+10/7/2015;16:44:14;10/13/2015;Cancel;100000;80.000;0;N;;_;_;-;-;S;D;C;502432AA5
+10/7/2015;16:44:14;10/13/2015;Trade;100000;80.000;0;N;;U;_;-;A;S;D;C;502432AA5
+10/7/2015;16:44:14;10/13/2015;Cancel;100000;80.000;0;N;;_;_;-;-;S;D;C;502432AA5
+10/7/2015;11:05:47;10/13/2015;Trade;100000;80.000;0;N;;Z;_;-;A;B;D;C;502432AA5

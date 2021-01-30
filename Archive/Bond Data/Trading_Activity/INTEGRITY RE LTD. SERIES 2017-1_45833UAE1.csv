@@ -1,0 +1,5 @@
+Date;Time;Settlement;Status;Quantity;Price;Yield;Remuneration;ATS; Modifier;2nd Modifier;Special;As-Of;Side;Reporting Party Type;Contra Party Type;Finra Ticker
+4/6/2020;11:28:45;4/8/2020;Trade;1MM+;96.450;;M;;_;_;-;-;S;D;C;45833UAE1
+4/6/2020;11:26:37;4/8/2020;Trade;1MM+;96.350;;M;;_;_;-;-;B;D;C;45833UAE1
+1/22/2020;07:47:51;1/24/2020;Trade;1MM+;100.350;;M;;_;_;-;-;S;D;C;45833UAE1
+1/22/2020;07:47:01;1/24/2020;Trade;1MM+;100.250;;M;;_;_;-;-;B;D;C;45833UAE1

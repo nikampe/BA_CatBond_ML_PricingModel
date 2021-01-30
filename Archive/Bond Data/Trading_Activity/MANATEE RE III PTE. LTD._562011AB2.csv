@@ -1,0 +1,5 @@
+Date;Time;Settlement;Status;Quantity;Price;Yield;Remuneration;ATS; Modifier;2nd Modifier;Special;As-Of;Side;Reporting Party Type;Contra Party Type;Finra Ticker
+1/22/2020;10:40:48;1/24/2020;Trade;500000;101.100;;M;;_;_;-;-;S;D;C;562011AB2
+1/22/2020;10:40:07;1/24/2020;Trade;500000;101.000;;M;;_;_;-;-;B;D;C;562011AB2
+10/7/2019;13:17:15;10/9/2019;Trade;1MM+;101.550;;M;;_;_;-;-;B;D;C;562011AB2
+10/7/2019;13:16:52;10/9/2019;Trade;1MM+;101.650;;M;;_;_;-;-;S;D;C;562011AB2

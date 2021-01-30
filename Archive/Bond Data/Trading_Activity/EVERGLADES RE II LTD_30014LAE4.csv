@@ -1,0 +1,5 @@
+Date;Time;Settlement;Status;Quantity;Price;Yield;Remuneration;ATS; Modifier;2nd Modifier;Special;As-Of;Side;Reporting Party Type;Contra Party Type;Finra Ticker
+6/9/2020;11:20:45;6/11/2020;Trade;250000;100.050;;M;;_;_;-;-;S;D;C;30014LAE4
+6/9/2020;11:19:32;6/11/2020;Trade;250000;100.000;;M;;_;_;-;-;B;D;C;30014LAE4
+6/9/2020;11:16:01;6/11/2020;Trade;1000000;100.050;;M;;_;_;-;-;S;D;C;30014LAE4
+6/9/2020;11:12:58;6/11/2020;Trade;1000000;100.000;;M;;_;_;-;-;B;D;C;30014LAE4
