@@ -1,0 +1,44 @@
+\begin{center}
+\begin{tabular}{lclc}
+\toprule
+\textbf{Dep. Variable:}           & Spread\_Secondary & \textbf{  R-squared:         } &     0.640   \\
+\textbf{Model:}                   &        OLS        & \textbf{  Adj. R-squared:    } &     0.640   \\
+\textbf{Method:}                  &   Least Squares   & \textbf{  F-statistic:       } &     245.1   \\
+\textbf{Date:}                    &  Tue, 25 May 2021 & \textbf{  Prob (F-statistic):} &     0.00    \\
+\textbf{Time:}                    &      18:05:03     & \textbf{  Log-Likelihood:    } &    15088.   \\
+\textbf{No. Observations:}        &         6914      & \textbf{  AIC:               } & -3.015e+04  \\
+\textbf{Df Residuals:}            &         6902      & \textbf{  BIC:               } & -3.007e+04  \\
+\textbf{Df Model:}                &           11      & \textbf{                     } &             \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lcccccc}
+                                  & \textbf{coef} & \textbf{std err} & \textbf{z} & \textbf{P$> |$z$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
+\midrule
+\textbf{Intercept}                &       0.0580  &        0.005     &    10.923  &         0.000        &        0.048    &        0.068     \\
+\textbf{EL}                       &       1.3615  &        0.068     &    20.121  &         0.000        &        1.229    &        1.494     \\
+\textbf{Volume\_log}              &      -0.0048  &        0.001     &    -6.757  &         0.000        &       -0.006    &       -0.003     \\
+\textbf{Term}                     &      -0.0005  &     5.03e-05     &   -10.498  &         0.000        &       -0.001    &       -0.000     \\
+\textbf{Peril\_Types}             &       0.0061  &        0.001     &    12.060  &         0.000        &        0.005    &        0.007     \\
+\textbf{Peril\_Regions}           &      -0.0028  &        0.001     &    -3.379  &         0.001        &       -0.004    &       -0.001     \\
+\textbf{Seasonality\_Dummy}       &       0.0018  &        0.001     &     2.468  &         0.014        &        0.000    &        0.003     \\
+\textbf{Trigger\_Type\_Dummy}     &      -0.0045  &        0.001     &    -3.479  &         0.001        &       -0.007    &       -0.002     \\
+\textbf{Rating\_Dummy}            &       0.0053  &        0.001     &     8.115  &         0.000        &        0.004    &        0.007     \\
+\textbf{SP500\_Quarterly\_Return} &       0.0275  &        0.004     &     6.745  &         0.000        &        0.020    &        0.036     \\
+\textbf{Corp\_Credit\_Spread}     &       0.2718  &        0.022     &    12.484  &         0.000        &        0.229    &        0.315     \\
+\textbf{Rate\_on\_Line\_Index}    &       0.0132  &        0.005     &     2.911  &         0.004        &        0.004    &        0.022     \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lclc}
+\textbf{Omnibus:}       & 2746.182 & \textbf{  Durbin-Watson:     } &     0.273   \\
+\textbf{Prob(Omnibus):} &   0.000  & \textbf{  Jarque-Bera (JB):  } & 110950.851  \\
+\textbf{Skew:}          &  -1.200  & \textbf{  Prob(JB):          } &      0.00   \\
+\textbf{Kurtosis:}      &  22.477  & \textbf{  Cond. No.          } &  2.44e+03   \\
+\bottomrule
+\end{tabular}
+%\caption{OLS Regression Results}
+\end{center}
+
+Warnings: \newline
+ [1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 1 lags and without small sample correction \newline
+ [2] The condition number is large, 2.44e+03. This might indicate that there are \newline
+ strong multicollinearity or other numerical problems.

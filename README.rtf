@@ -1,0 +1,65 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2578
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica-Oblique;\f2\fswiss\fcharset0 Helvetica;
+}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww23380\viewh14300\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\b\fs32 \cf0 \expnd0\expndtw0\kerning0
+Machine Learning-Enhanced Pricing in the Secondary Market for Cat Bonds\
+\
+
+\f1\i\b0\fs24 This README-file provides an overview in order to let the full code run. Please follow the step-by-step introduction below.
+\f0\i0\b\fs32 \
+\
+
+\f2\b0 1. Start the Virtual Environment\
+\
+
+\fs24 1.1 Open the terminal or open project in the text editor of your choice (
+\f1\i recommended
+\f2\i0 : Visual Studio Code)\
+1.2 Navigate to BA_CatBond_ML_PricingModel/Code/virtual_environment in the terminal\
+1.3 Activate the virtual environment through the command \'84source env/bin/activate\'93\
+1.4 Navigate back to BA_CatBond_ML_PricingModel/ in order to set the correct file path for the indirect paths in the code\
+\
+
+\fs32 2. Run the Code Files
+\fs24 \
+
+\f1\i\fs32 \
+
+\f2\i0\fs24 2.1 Use the text editor of your choice in order to run the files (or directly from the terminal) (
+\f1\i recommended
+\f2\i0 : Visual Studio Code)\
+2.2 Run import.py (
+\f1\i processing time: 1min
+\f2\i0 )\
+2.3 Run cleaning.py (
+\f1\i processing time: 30min
+\f2\i0 )\
+2.4 Run merging.py (
+\f1\i processing time: 2min
+\f2\i0 )\
+2.5 Run processing.py (
+\f1\i processing time with validated hyperparameters: 2min; processing time with full grid search of hyperparameters: 72-96h
+\f2\i0 )\
+\
+
+\fs32 3. Check the results\
+\
+
+\fs24 All resulting files are saved in respective folders (also working data which is needed between multiple code files).\
+\
+
+\fs32 Notes\
+\
+
+\fs24 The random forest and neural network algorithms already use the validated hyperparameters in order to keep the runtime low. This can be changed by defining the param grids in the grid search lines in the code file \'84processing.py\'93 from \'84\'85_grid_validated\'93 to \'84\'85_grid\'93 (they are always stated below each other for each model). Please be advised that the grid search has a very long runtime due to the amount of validating hyperparameters and due to the size of the data sets, as stated in 2.5.\
+\
+If you use Windows or any operating systems other than MacOS, please adjust the file paths for any data import or export in all files and the reading commands \'84os.listdir()\'93 in the files \'84import.py\'93 and \'84cleaning.py\'93 to the specifications for your operating systems if necessary.\
+
+\f1\i\fs32 \
+}

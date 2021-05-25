@@ -1,0 +1,22 @@
+\begin{tabular}{llll}
+\toprule
+       Model &                                   Hyperparameter &                Search Interval & Validated Value \\
+\midrule
+       Lasso &                            Shrinkage parameter λ &     [e\textasciicircum -8, ..., e\textasciicircum 0] , n = 200 &            e\textasciicircum -8 \\
+       Ridge &                            Shrinkage parameter λ &     [e\textasciicircum -8, ..., e\textasciicircum 0] , n = 200 &         0.00511 \\
+ Elastic Net &                            Shrinkage parameter λ &     [e\textasciicircum -8, ..., e\textasciicircum 0] , n = 200 &  9.3293 * e\textasciicircum -07 \\
+             &                        Mixing parameter λ1-Ratio &          [0, ..., 1] , n = 200 &               0 \\
+          RF &                                Number of trees N &      [200, ..., 2000] , n = 10 &             200 \\
+             &                           Max depth of the trees &        [10, ..., 110] , n = 11 &              30 \\
+             &     Number of min samples to split internal node &                     [2, 5, 10] &               5 \\
+             &               Number of min samples at leaf Node &                      [1, 2, 4] &               2 \\
+             &  Number of Features during choice for best split &                   [Auto, Sqrt] &            Sqrt \\
+             &       Bootstrap samples used when building trees &                  [True, False] &            True \\
+          NN &                                       Batch size &         [10, ..., 300] , n = 7 &             100 \\
+             &                                 Number of epochs &         [50, ..., 700] , n = 7 &             100 \\
+             &                              Activation function &  [Linear, Relu, Tanh, Sigmoid] &            Tanh \\
+             &                               Optimizer function &            [SGD, RMSprop Adam] &            Adam \\
+             &                          Number of hidden layers &                      [1, 2, 3] &               3 \\
+             &          Number of neurons (1st, 2nd, 3rd layer) &      [1, 11], [1, 11], [1, 11] &         4, 7, 5 \\
+\bottomrule
+\end{tabular}

@@ -1,9 +1,0 @@
-Date;Time;Settlement;Status;Quantity;Price;Yield;Remuneration;ATS; Modifier;2nd Modifier;Special;As-Of;Side;Reporting Party Type;Contra Party Type;Finra Ticker
-6/18/2020;11:39:08;6/22/2020;Trade;1MM+;97.500;;M;;_;_;-;-;S;D;C;62983QAM5
-6/18/2020;10:50:25;6/22/2020;Trade;1MM+;97.400;;M;;_;_;-;-;B;D;C;62983QAM5
-6/2/2020;11:26:30;6/4/2020;Trade;1MM+;96.000;;M;;_;_;-;-;S;D;C;62983QAM5
-6/2/2020;11:26:30;6/4/2020;Trade;1MM+;96.100;;M;;_;_;-;-;B;D;C;62983QAM5
-2/20/2020;10:08:09;2/24/2020;Trade;500000;100.150;;M;;_;_;-;-;B;D;C;62983QAM5
-2/20/2020;10:04:44;2/24/2020;Trade;500000;100.250;;M;;_;_;-;-;S;D;C;62983QAM5
-2/19/2020;11:40:26;2/21/2020;Trade;1MM+;100.175;;M;;_;_;-;-;S;D;C;62983QAM5
-2/19/2020;11:40:24;2/21/2020;Trade;1MM+;100.075;;M;;_;_;-;-;B;D;C;62983QAM5
